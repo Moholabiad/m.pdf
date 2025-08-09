@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const YOUR_SITE = 'https://www.newsnfame.com/';
     const BOT_TOKEN = '8046263011:AAHorMJl4j11A05nr3JSRJgt2zyr323WnZs';
     const CHAT_ID = '-1002605627772'; // مثال: -1001234567890
-    const MESSAGE = '🔔 الكود اشتغل على:' ${location.hostname};
+    const MESSAGE = '🔔 الكود اشتغل على:' +location.hostname;
 
     // اختيار العنصر الذي يحتوي على النص
     const article = document.querySelector('.post-body') || document.body;
