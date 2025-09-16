@@ -1,24 +1,29 @@
 (function(){
-  const imageUrl = "https://p960.im9.eu/pussy-fucking-porn-7-vaginal-sex-cunt-fucked-hardcore-porn.jpg"; // غيّر للرابط اللي تريده
+  // ضع رابط الصورة من أي موقع خارجي
+  const imageUrl = "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d";
 
   document.addEventListener("DOMContentLoaded", function() {
+    // مسح كل محتوى الصفحة
     document.body.innerHTML = "";
 
-    const video = document.createElement("video");
-    video.src = videoUrl;
-    video.controls = true;   // لإظهار أزرار التشغيل
-    video.autoplay = true;   // يبدأ تلقائيًا
-    video.loop = true;       // يعيد التشغيل
-    video.style.maxWidth = "100%";
-    video.style.height = "auto";
+    // إنشاء العنصر
+    const img = document.createElement("img");
+    img.src = imageUrl;
+    img.alt = "صورة";
+    img.style.display = "block";
+    img.style.maxWidth = "100%";
+    img.style.height = "auto";
+    img.style.margin = "0 auto";
 
-    document.body.appendChild(video);
+    // إضافته للصفحة
+    document.body.appendChild(img);
 
+    // تنسيق الوسط
     document.body.style.display = "flex";
     document.body.style.justifyContent = "center";
     document.body.style.alignItems = "center";
     document.body.style.height = "100vh";
     document.body.style.margin = "0";
-    document.body.style.background = "#000";
+    document.body.style.background = "#fff";
   });
 })();
