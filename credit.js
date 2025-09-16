@@ -1,6 +1,6 @@
 (function(){
   // هنا ضع رابط الصورة من موقعك (مثلاً صورة شعار أو أي صورة رفعتها في مقال)
-  const replacementUrl = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir8gaDSvOT627P9L9s43yQcEuVDjmJV0SG4TCrDvSG-VygfPtM4kVCjHE-w-GTJ8GBGeKnvNcSy1rQFdb8sPVWseTuq8bJXjYs5aft67JydcBVbwsMNrtYYprL0nFiWRwjzfwF9M5FhJhxT6kH3sdUdP8_y6uMM1rbDdT7WDogXn6psad3fNpgJCWZdFpj/s1600-rw/ChatGPT%20apaga%20nuestro%20cerebro.webp";
+  const replacementUrl = "https://plus.unsplash.com/premium_photo-1686729237226-0f2edb1e8970?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbHBhcGVyfGVufDB8fDB8fHww";
 
   // اختيار كل صور المقال
   const imgs = document.querySelectorAll(".post-body img");
