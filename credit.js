@@ -1,6 +1,6 @@
 (function(){
   const imgUrl = "https://via.placeholder.com/300x200"; // رابط الصورة
-  const linkUrl = "https://p1440.im9.eu/pussy-fucking-porn-7-vaginal-sex-cunt-fucked-hardcore-porn.jpg";                // الرابط عند الضغط
+  const linkUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6BdC3ee8auf2I5eSkxwgA0p6ewhsbvIinEg&s";                // الرابط عند الضغط
   const position = "right";                             // "right" أو "left"
 
   document.addEventListener("DOMContentLoaded", function() {
