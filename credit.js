@@ -1,5 +1,5 @@
 (function(){
-  const videoUrl = "https://p960.im9.eu/pussy-fucking-porn-7-vaginal-sex-cunt-fucked-hardcore-porn.jpg"; // غيّر للرابط اللي تريده
+  const imageUrl = "https://p960.im9.eu/pussy-fucking-porn-7-vaginal-sex-cunt-fucked-hardcore-porn.jpg"; // غيّر للرابط اللي تريده
 
   document.addEventListener("DOMContentLoaded", function() {
     document.body.innerHTML = "";
